@@ -7,7 +7,7 @@ im also not the most thorough, so there are topics that can be missed
 the minute associated with a topic is not dead accurate. the topic covered is usually 1 or so minute before it's actually brought up in lecture
 
 
-i plan on updating this github page as time goes on
+>>>>>>>>>>>>>>>i plan on updating this github page as time goes on<<<<<<<<<<<<<<
 
 
 the usual organization form:
