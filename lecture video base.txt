@@ -1,0 +1,444 @@
++=+=+=+=+=+=+=+= 10 - 4 friday Discussion (before assesment 1)+=+=+=+=+=+=+=+=
+binary coded decimal incrementer - 0
+	dont cares - 12
+		joke on breaking arm - 15.40
+		"use them if they help and ONLY if they help" -  2050
+		why NASA doesnt use dont cares- 2530
+
+Decoder - 30
+multiplexer - 34
++=+=+=+=+=+=+=+= 10 - 4 friday Discussion (before assesment 1)+=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 7 monday lecture (before assesment 1)+=+=+=+=+=+=+=+=
+parity - 5
+	how to xor it using gates - 7
+	IRL use - 8.30
+
+quickly go over adder - 10
+	clockrate - 12
+	carry lookahaed - 13
+	"write C out 4" - 18
+	inside the carry look ahead - 22
+	C out equation clarification - 27
+	
+worst case path - 40
+
+assesment 1 quick review - 40
++=+=+=+=+=+=+=+= 10 - 7 monday lecture (before assesment 1)+=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 11 friday Discussion (after assesment 1)+=+=+=+=+=+=+=+=
+sequential - 7
+	states - 11 
+		memory, reset, set, undefined - 17
+	S bar R bar latch - 33
+
+some timing - 38
+	what the clock is for - 45
+	clocked latch vs flip flop - 45
+
+flop flop - 46
+	latch and flip flop analogy - 47
+	edge trigger - 48
+	setup time, propogation delay, hold time - 49
++=+=+=+=+=+=+=+= 10 - 11 friday Discussion (after assesment 1)+=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 10 - 11 friday Lecture (after assesment 1)+=+=+=+=+=+=+=+=
+flip flop w/ combination logic inbetween - 5.30
+
+clock & worst case path - 6
+
+karnough map & flipflop 13
+
+toggle flip flop - 13
+	karnough map & toggle flipflop - 14
+	toggle flip flop wraps SR flip flop -22 
+
+jk flipflop that wraps SR flip flop - 23
+	kmap to create JK circuit - 27 
+
+flip flop "Ugh" - 36
+
+d flip flop (what registers are made of) - 46
++=+=+=+=+=+=+=+= 10 - 11 friday Lecture (after assesment 1)+=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 14 monday Lecture +=+=+=+=+=+=+=+=
+application of flipflop + combo + combinational + delay - 8
+	why we dont use latch - 10
+
+registers - 14
+
+word problem into sequential logic circuit diagram - 18
+	sequence lock - 18
+	state = y, x=  input, z = output -  23
+
+moore and mealy - 28
+
+synchronous sequential circuit   SSC - 34
+	5 steps of ssc - 34
+
+machine m1 - 35
+	noticing identical and removing redundancy by merging - 49
++=+=+=+=+=+=+=+= 10 - 14 monday Lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 16 wednesday Lecture +=+=+=+=+=+=+=+=
+mealy v moore - 8
+	when to use - 10
+
+machine m1 - 12
+	reduction	
+	new picture
+	"why am I using d flip flops?" - 24
+	kmaps - 25
+	schematic drawing - 28
+	reducing further and why we didnt in this case - 31
++=+=+=+=+=+=+=+= 10 - 16 wednesday Lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 18 friday discussion +=+=+=+=+=+=+=+=
+going over test - 0
+
+redo flip flops - 41	
+	master slave flip flop - 44
+	flip flop timing and racing - 44
+
+core of computer and why clock is important - 50
++=+=+=+=+=+=+=+= 10 - 18 friday discussion +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 10 - 18 friday lecture+=+=+=+=+=+=+=+=
+machine m2 - 6
+	fold 1 - 13
+	fold 2 - 18
+	fold 3 - 21
+	state transition diagram / picture - 23
+
+	how to determine number of flip flops needed - 24
+
+	how to pick bit pattern? - 25
+		hamming distance rule of thumb - 26
+		the k map! - 29 
+		just do your best - 32
+
+	state transition table - 35
+
+	final  k map - 42
+
+	flip flop and design - 50
++=+=+=+=+=+=+=+= 10 - 18 friday lecture+=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 21 monday lecture+=+=+=+=+=+=+=+=
+broken mic rip - 0
+
+lecture started ~here according to student provided audio - 10.20
+student provided audio: https://1drv.ms/u/c/aed5597c00212084/Ed2K39PrmAlMg3osbTixG5QBj1lyBKo4uOiHGNjWODmBMg
+
+	kmap - 25
+	final schematic - 30
+	
+	second take with an SR ff - 40
++=+=+=+=+=+=+=+= 10 - 21 monday lecture+=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 23 wednesday lecture+=+=+=+=+=+=+=+=
+not having to use d flip flop - 5
+sr latch / ff retouch - 6
+jk flipflip / no illegal input - 13	
+	'where are the set events?' - 15
+	wrapping jk around sr - 15
+
+using SR flip flop instead of dff in machine m2 - 20
+using JK flip flop instead of dff in machine m2 - 25
+
+wisdom of the crowd kmap - 35
+	implement jk - 38
+
+vending machine - 44
++=+=+=+=+=+=+=+= 10 - 23 wednesday lecture+=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 25 friday discussion +=+=+=+=+=+=+=+=
+vending machine - 8
+	state transition table - 18
+	kmaps - 22
+		magic to kmap count sequence - 30
+
+why is the D flipflop good - 35
+
+heart of all flip flops, latch - 37
+	sr, jk, t - 40
+	where are the set and reset events - 42
+	when is toggle high? - 44
+	why JK is good - 46
++=+=+=+=+=+=+=+= 10 - 25 friday discussion +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 10 - 25 friday lecture +=+=+=+=+=+=+=+=
+talk of last lecture - 7
+2 bit saturating counter up-down counter moore model - 11
+
+timing of syncronous sequential circuit - 29
+	how in the world do you even start? - 36
+	where to actually start / the flip flops - 38
+		why the hold time is not important - 46
+	why clock speed is important - 48
++=+=+=+=+=+=+=+= 10 - 25 friday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 28 monday lecture +=+=+=+=+=+=+=+=
+wrapping an AB flipflop using different kinds of flipflop - 5
+	where are the sets and resets of AB? - 9
+	SR wrapping - 10
+	JK wrapping - 12
+	T wrapping - 13
+	
+steps to wrapping a flip flop - 14
+
+undo JK FF and turn into SR ff - 18
+	how we know which variable we're dealing with - 19
+how we know which variable we're dealing with - 24
+	"you cant identify set and reset without knowing which variable we're dealing with" - 26
+
+state transition table reductions - 28
+
+vending machine - 33
+	mealy - 34
+	moore - 35	
+		multiple outputs explained - 40
+	why they all have loops - 49
++=+=+=+=+=+=+=+= 10 - 28 monday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 1 friday discussion +=+=+=+=+=+=+=+=
+2 bit shifter - 6
+
+its your parents fault - 8
+
+ALU - 9
+
+FDE : fetch decode excecute - 11
+	memory, mar, mdr - 11
+	program counter pc - 11
+	instruction register - 11
+
+"what is a register?" - 12
+
+bus (the slash indicates multiple wires as per pg56, harris) - 13
+
+important signals - 14
+	R in - 14
+			problem with D flipflop (it has no memory) - 15	
+		each register gets its own R in - 15
+	R out - 16
+
+Tri state / tristate device - 17
+	three states: 1, 0, disconnected - 18
+	analogy on why only one at a time - 18
+		"you cant connect outputs together" - 20
+	what the states physically look like - 20
+
+why you cant add two different things at the same bus - 21
+
+temporary register - 22
+	why it doesnt need x out - 22
+
+Fetch: what does it consinst of - 24
+	how to read something from memory - 24
+
+	why we have to increment PC - 28
+
+	state machine of fetch - 34
+
+	MDR - 36
+
+Decode - 37
+	opcode - 38
+
+	Add basics & the 3 operands - 39
+Execute & its state machine - 43
+
+ACC accumulator - 41
+
+"any program you write can be run on this piece of hardware - 48
+
+on decoding: "magic box told us to go to [execute]" - 49
+
+what if its subtraction? - 50
++=+=+=+=+=+=+=+= 11 - 1 friday discussion +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 11 - 1 friday lecture +=+=+=+=+=+=+=+=
+"the first personal computers were basically this" - 7
+
+cant have two things connected to bus at same time - 9
+
+input & output of every dff register - 9
+
+bitpattern and opcode - 11
+	bitpattern in the opcode field - 12
+
+how to add memory address [R] to accumulator (add [R]) - 14
+	accidentally mixes up MAR and MDR - 15
+	state machine - 16
+
+microcode - 18
+
+70's pc spiel - 19
+	"what can I change to use fewer cycles?" - 20
+	the ibm innovation- 22
+	why intel is struggling - 23
+	no compiler back then,, rewriting binary program - 24
+		people that banks hired installed backdoors lol - 26
+
+"why does this take so many steps?" - 27
+	we can have two busses - 28
+	what about three busses? - 30
+
+what if adding buses makes clock go slower? - 34
+	we'll talk about it next week :( - 34
+
+berkeley's RISC (MCCF)- 35
+intel's CISC - 39
+	computer monthly magazine fight - 40
+harvard's MIPS - 43
+
+"there is a handout on the canvas homepage" - 48
++=+=+=+=+=+=+=+= 11 - 1 friday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 4 monday lecture +=+=+=+=+=+=+=+=
+that guy in the suit from the accredation organization showed up and asked us questions
+no lecture,, no audio,, skip this,, or dont
++=+=+=+=+=+=+=+= 11 - 4 monday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 6 wednesday lecture+=+=+=+=+=+=+=+=
+excellent diagram of registers and bus - 7
+	mux vs bus - 7
+	"i cant connect outputs" - 10
+the tri state / tristate - 10
+	
+mux vs bus "it scales nicely" - 12
+
+more explanation on tristate - 14
+
+performance - 15
+	define performace - 16
+		two kinds: throughput & response time - 17
+	throughput (amount per unit time) & Las Vegas analogy - 17
+		"how fast can it go and how much can it carry" - 19
+	response time (start it and see when it ends) - 19
+
+	when throughout matters most (atm) - 20	
+	when response time matters (airbag) - 21
+		
+how to measure performance - 25
+	elapsed time / wall time and what impacts it - 25
+		benchmark / prepresentative program - 26
+			actually starts it around here - 30
+		4 types of benchmarks - 30
+			synthetic - 31
+				dhrystone, whetstone, etc - 32
+					samsung gets caught cheating - 33
+			toy programs - 34
+				towers of hanoi, quicksort (recursive) - 35
+			kernels - 37
+				livermore loops, linpack loops, etc - 38
+					not useful if customer isnt scientist - 38
+			Real - 39
+				SPEC suite, perfect club, database stuff - 40
+					what is your computer NOT good at - 43
+
+reporting the performace - 48
+	MIPS (millions of instructions per second) - 49
+		"if someone quotes you a MIPS number just leave..." - 50
+	MFLOPS (mega flops / mega float point ops) - 51
+	elapsed time ,,, we'll pick it up friday - 52
++=+=+=+=+=+=+=+= 11 - 6 wednesday lecture+=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 8 friday discussion +=+=+=+=+=+=+=+=
+go over the exam(HE SAID EXAM!!! not ASSESMENT!!!) - 4
+he talks a bit on grading and curving and final grade a bit - 37
+
+performance & measuring - 40
+	benchmark - 41
+		what makes a benchmark vs a regular program? - 41
+	reporting - 43
+		mips, mflops,elapsed time - 43
+		elapsed time better explanation - 44
+			mflops only useful for floatpoint - 47
+		ratio - 48
+			SPEC ratio  - 48
++=+=+=+=+=+=+=+= 11 - 8 friday discussion +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 11 - 8 friday lecture +=+=+=+=+=+=+=+=
+	(honestly, I coudlnt follow this one very well, i probably missed some stuff)
+
+how can we improve performance? - 5
+
+CPU time equation (he really just jumps striaght into it, doesnt he...) - 7
+	3 ways to make machine faster: picking and choosing between - 8
+		instruct/prog, cycle/instruct, time/cycle
+		compiler term, organization term(RISC,CISC....), technology term - 9
+	"if you want add this instruction and it slows down the time per cycle, it better knock out one of these two terms a lot, or we're no adding it" - 10
+
+amdahl's law and some light calculus - 13
+	"the performance gained by using faster mode limited by amount of time
+		you use that mode" - 13
+
+"intuitavely, performance is response time" -17
+
+power equation and what reducing voltage does - 17
+	heat - 18
+	power density (power per unit area) & leaf analogy - 19
+
+multicore CPU and throughput improvements - 21
+
+heat limitations and the future - 23
+	we've reached the end of what silicon can provide us - 25
+
+going over the handout of "genericcpu.txt2.pdf"- 29
+	SE = sign extend, binary sign extension - 31 
+	
+	what it takes to do a fetch: - 33
+	
+	going over the truth table - 33
+		"all those signals that we drew on the board we put here" - 33
+		"just write down what each of the signals have to be to make it happen" - 34
+
+	state transition diagram - 36
+
+	microcode (the stuff in the truth table?) - 39
+
+	opcode tells us where we go next - 40
+
+chapter 7 of the harris book and single vs multicycle- 42
++=+=+=+=+=+=+=+= 11 - 8 friday lecture +=+=+=+=+=+=+=+=
