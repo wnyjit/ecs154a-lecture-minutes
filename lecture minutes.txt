@@ -238,9 +238,9 @@ vending machine - 33
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 10 - 30 assessment 2 +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 10 - 30 wednesday assessment 2 +=+=+=+=+=+=+=+=
 watch everyone take the assessment again
-+=+=+=+=+=+=+=+= 10 - 30 assessment 2 +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 10 - 30 wednesday assessment 2 +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
@@ -456,3 +456,82 @@ going over the handout of "genericcpu.txt2.pdf"- 29
 
 chapter 7 of the harris book and single vs multicycle- 42
 +=+=+=+=+=+=+=+= 11 - 8 friday lecture +=+=+=+=+=+=+=+=
+
+
+================================================================================================================================
+================================================================================================================================
+
+
++=+=+=+=+=+=+=+= 11 - 11 monday lecture+=+=+=+=+=+=+=+=
+nothing , verterans day
++=+=+=+=+=+=+=+= 11 - 11 monday lecture+=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 13 wednesday discussion +=+=+=+=+=+=+=+=
+now we're in chapter 8 on memory and caching - 2
+	it will be in assessment 3!!! - 3
+
+assessment still on wednesday :( (with less material, though :) )- 3
+
+register file - 4
+
+two kinds of memory: static & dynamic - 6
+	static memory (cross coupled nor) - 6
+		pass transistors - 7
+		static is very fast - 9
+	dynamic memory/capacitor & bucket analogy - 10
+	 	dynamic runs at lower temperature than static - 11
+	static vs dynamic (hot vs cold, fast vs slow...) - 11
+
+	DRO: dynamic memory's Destruction Read Out - 12
+
+	"the first super computer had 5 patents for cooling system for all the static memory they used" - 13
+
+volatile memory - 17
+
+locality - 18
+	temporal locality & spatial locality - 19
+
+how can we exploit locality to get best of both worlds with static & dynam mem - 19
+
+cache - 20
+	"as far as the cpu/memory is concerned...." - 21
+	why cache is faster than memory- 23
+	Fully Associative Approach/associative arrays - 24
+		why cache is faster than memory - 24
+		how to tell if you have a match (using XOR) - 27
+			why you cant use AND gates - 30
+
+	replacement strategy - 30
+	
+	why you cant have memory physically far away from the cpu - 33
+
+	LRU, MRU, random, none.... - 35
+		LRU applied to our example - 35
+		"there isn't a right answer" - 37
+		why LRU is terrible for loops that dont fit - 38
+		why random is kinda good - 38
+		why MRU is popular now - 39
+	adaptive replacement strategies - 40
+
+	direct mapped approach (as opposed to Full Assoc Approach) - 42
+		entry & tag & data and how it plays together- 43
+		why direct is faster than full assoc & built in replacement strat- 46
+			making clear on direct mapped - 50
+
+talking about hybrid approach monday - 52
++=+=+=+=+=+=+=+= 11 - 13 wednesday discussion +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 15 friday discussion+=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 11 - 15 friday discussion+=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 11 - 15 friday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 11 - 15 friday lecture +=+=+=+=+=+=+=+=
+
