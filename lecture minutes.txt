@@ -521,17 +521,90 @@ cache - 20
 		why direct is faster than full assoc & built in replacement strat- 46
 			making clear on direct mapped - 50
 
-talking about hybrid approach monday - 52
+talking about hybrid approach monday(he means wednesday) - 52
 +=+=+=+=+=+=+=+= 11 - 13 wednesday discussion +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 11 - 15 friday discussion+=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 11 - 15 friday discussion +=+=+=+=+=+=+=+=
+continue from wednesday - 5
 
-+=+=+=+=+=+=+=+= 11 - 15 friday discussion+=+=+=+=+=+=+=+=
+external memory is really slow - 6
+
+fully associative cahe & the tag-data relationship - 8
+	replacement schemes - 10
+	problem(s) with full assoc cache - 10
+
+direct mapped cache - 12
+	"memorize this" - 17
+	dividing - 16
+
+the hybrid cache / set associative cache - 21
+	all caches are set associative - 23
+	
+"if memory is so slow, why am I bringing back a single byte?" - 25
+line size - 26
+	why it starts at the right side/least sig bit - 30
+		"I will put something like this on the assessment" - 34
+cache pollution - 38
+	
+	answering questions & claryfing how hybrid set assoc works - 38
+
+"this will be on the assessment on wendesday" - 52
++=+=+=+=+=+=+=+= 11 - 15 friday discussion +=+=+=+=+=+=+=+=
 
 +=+=+=+=+=+=+=+= 11 - 15 friday lecture +=+=+=+=+=+=+=+=
+difference between / how "way" works - 6
 
+example of set assoc cache - 7
+
+how line size address works - 8
+	"you arent responsible for knowing the size of tag" - 9
+
+answering questions & claryfing how hybrid set assoc works - 10
+
+"we've been talking about 'reads' this entire time, what about 'writes'?" / what to do on cache write - 19 
+cache write - 19
+	write back vs write through - 20
+	write back - 20
+		marking bits as 'dirty' - 21
+			how to clean cache - 22
+		coherency circuitry - 23
+			its super complicated, "entire books have been written about cache coherency" - 26
+			
+"fortran is the best language ever" - 28
+
+virtual memory will be covered monday - 29
+
+"what if a write misses?" - 30
+	write allocate vs, no-write allocate - 31
+	
+fundamental cache questions - 33
+	block/line placement? where in cache? - 33
+	block/line identification? how is block found in cache- 35
+		valid bits - 35
+	block/line replacement? which block to replace on miss? - 37
+		LRU, MRU, Random, fifo, optimal - 37
+	write strategy? - 39
+		why writes are slower than reads - 39
+		write back vs write through "we just talked about all this"  - 40
+	cache type/ split vs unified? - 42
+
+miss ratio "i dont know tho" - 43
+	average memory acces time (AMAT) - 45
+		push and pull - 46
+
+three C's of caches: capacity, confict, compulsory - 47
+	compulsory - 48
+
+examples form previous tests - 49
+	we'll look at it again at monday - 53
 +=+=+=+=+=+=+=+= 11 - 15 friday lecture +=+=+=+=+=+=+=+=
 
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 18 monday lecture +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 11 - 18 monday lecture +=+=+=+=+=+=+=+=
