@@ -430,7 +430,7 @@ amdahl's law and some light calculus - 13
 
 "intuitavely, performance is response time" -17
 
-power equation and what reducing voltage does - 17
+power consumed equation and what reducing voltage does - 17
 	heat - 18
 	power density (power per unit area) & leaf analogy - 19
 
@@ -629,7 +629,7 @@ dynamic memory vs static memory explained very quickly - 21
 
 static mem isnt necesarily slower and why - 22
 
-leakage current / voltage & also a bit on tech advancements - 23 (wtf is up with the camera here lol)
+leakage current / voltage & also a bit on tech advancements (refering to power consumed equation seen: 11-8 friday lect @17) - 23 (wtf is up with the camera here lol)
 	"its not they cant handle speed, they can't handle heat" - 27
 
 coherency - 28
