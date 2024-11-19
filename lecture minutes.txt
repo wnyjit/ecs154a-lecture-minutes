@@ -431,6 +431,7 @@ amdahl's law and some light calculus - 13
 "intuitavely, performance is response time" -17
 
 power consumed equation and what reducing voltage does - 17
+	water faucet analogy - 17
 	heat - 18
 	power density (power per unit area) & leaf analogy - 19
 
