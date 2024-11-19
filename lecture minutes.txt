@@ -469,7 +469,7 @@ nothing , verterans day
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 11 - 13 wednesday discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 11 - 13 wednesday lecture +=+=+=+=+=+=+=+=
 now we're in chapter 8 on memory and caching - 2
 	it will be in assessment 3!!! - 3
 
@@ -522,12 +522,12 @@ cache - 20
 			making clear on direct mapped - 50
 
 talking about hybrid approach monday(he means wednesday) - 52
-+=+=+=+=+=+=+=+= 11 - 13 wednesday discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 11 - 13 wednesday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 11 - 15 friday discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 11 - 15 friday discussion+=+=+=+=+=+=+=+=
 continue from wednesday - 5
 
 external memory is really slow - 6
@@ -552,7 +552,7 @@ cache pollution - 38
 	answering questions & claryfing how hybrid set assoc works - 38
 
 "this will be on the assessment on wendesday" - 52
-+=+=+=+=+=+=+=+= 11 - 15 friday discussion +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 11 - 15 friday discussion+=+=+=+=+=+=+=+=
 
 +=+=+=+=+=+=+=+= 11 - 15 friday lecture +=+=+=+=+=+=+=+=
 difference between / how "way" works - 6
@@ -605,6 +605,53 @@ examples form previous tests - 49
 ================================================================================================================================
 ================================================================================================================================
 
-+=+=+=+=+=+=+=+= 11 - 18 monday lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 11 - 18 monday lecture (before assessment 3) +=+=+=+=+=+=+=+=
+cache review - 5
+	memory hierarchy - 6
+	volatile vs non volatile memory - 8
+	
+ mutli level cache - 9
+	L1 cache , L2 cache, L3 cache - 10
+		real machine example - 11
+			why knowing this is important even if you're not an architect - 13
 
-+=+=+=+=+=+=+=+= 11 - 18 monday lecture +=+=+=+=+=+=+=+=
+making your program tailored to specific cache methods and why you should or shouldn't - 15
+	intel sucks ibm master race - 18
+
+"you should definetly know average memory access time" AMAT - 18
+	hit time, miss rate, miss penalty - 18
+
+cache is static but not necessarily flip flop - 20
+	gates can feed into eachother and NOT be ff - 21
+	regs have to be ff, mem does not - 21
+
+dynamic memory vs static memory explained very quickly - 21
+
+static mem isnt necesarily slower and why - 22
+
+leakage current / voltage & also a bit on tech advancements - 23 (wtf is up with the camera here lol)
+	"its not they cant handle speed, they can't handle heat" - 27
+
+coherency - 28
+
+write through vs write back very quickly - 31
+
+shared memory model vs distributed / message passing - 34
+
+instruction register takes 8 bits but only 4 of them are used by the machine,, in practice test - 35
+	why we have sign extend - 36
+	the register stores the whole thing - 38
+
+why is memory read on in the given example? - 42
+	leaving mem on the entire time is okay. it needs to be off once program ends - 43
+
+line size partitioning practice - 44
+	with direct mapped cache - 44
+		what to do on a miss - 47
+
+	with set associative - 50
+		this one needs a replacement scheme - 53
+		direct mapped has built in replacement scheme - 53
+
+"i may make the questions more challenging" :( - 53
++=+=+=+=+=+=+=+= 11 - 18 monday lecture (before assessment 3) +=+=+=+=+=+=+=+=
