@@ -567,7 +567,8 @@ answering questions & claryfing how hybrid set assoc works - 10
 
 "we've been talking about 'reads' this entire time, what about 'writes'?" / what to do on cache write - 19 
 cache write - 19
-	write back vs write through - 20
+	write back vs write through (he gets the two mixed up until 23) - 20
+	write through - 20
 	write back - 20
 		marking bits as 'dirty' - 21
 			how to clean cache - 22
@@ -576,7 +577,7 @@ cache write - 19
 			
 "fortran is the best language ever" - 28
 
-virtual memory will be covered monday - 29
+virtual memory will be covered monday (it was not)- 29
 
 "what if a write misses?" - 30
 	write allocate vs, no-write allocate - 31
