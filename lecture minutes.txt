@@ -445,7 +445,7 @@ going over the handout of "genericcpu.txt2.pdf"- 29
 	
 	what it takes to do a fetch: - 33
 	
-	going over the truth table - 33
+	going over the microcode truth table - 33
 		"all those signals that we drew on the board we put here" - 33
 		"just write down what each of the signals have to be to make it happen" - 34
 
@@ -522,7 +522,7 @@ cache - 20
 		why direct is faster than full assoc & built in replacement strat- 46
 			making clear on direct mapped - 50
 
-talking about hybrid approach monday(he means wednesday) - 52
+talking about hybrid approach monday(he means friday) - 52
 +=+=+=+=+=+=+=+= 11 - 13 wednesday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
