@@ -657,3 +657,80 @@ line size partitioning practice - 44
 
 "i may make the questions more challenging" :( - 53
 +=+=+=+=+=+=+=+= 11 - 18 monday lecture (before assessment 3) +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 20 wednesday assessment 3 +=+=+=+=+=+=+=+=
+watch us take the test :)
++=+=+=+=+=+=+=+= 11 - 20 wednesday assessment 3 +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 22 friday discussion (after assessment 3) +=+=+=+=+=+=+=+=
+Farrens is sad so little people showed to class :( - 3
+
+"how do we turn this chunk of hardware into something useful?" - 4
+
+operating system principal: make better use of this expensive hardware - 5
+
+on John von Neumann "it's just a string of bits" - 6
+
+multi programming / multi tasking - 7
+	"all im doing is switching between programs really fast, i'm not actually doing them at the same time - 7
+
+relative branches - 8
+
+virtual memory - 10
+		all programs deal in virtual addresses - 10
+			the hardware maps from virtual to physical - 11
+		"how do I do this?" - 12
+			picture frame analogy - 12
+	example #1 - 13
+		oh, he says 256 because 8 bits means 256 different memory addresses (2^8). i finally understand conveneiently right after the assessment - 14
+		how to partition - 14
+			"think of it like a really big line" - 15
+			pages = pictures in our analogy - 15
+		page table - 16
+			on page table miss: "Ahh!" (Farrens_Scream.mp3) the page isnt in memory - 18
+				page fault & the OS - 19
+			memory and OS and page table summary - 21
+			"page faults sucks" - 22
+
+	pages = virtual, frame = physical memory - 22
+
+	removing / swapping / overwriting page: swap space - 25
+
+	frame address clarification - 28
+
+	every process needs its own page table - 29
+
+	the operating system manages the whole thing - 30
+		program has no access to these - 31
+
+	on sharing: two virtual address cannot map to the same physical space - 32
+
+	page table swap space explained again - 33
+
+	interrupts - 34
+
+	virtual memory explanation: "virtual memory is virtual, its not real. you dont actually have 256 bits to yourself" - 34
+	"virtual memory relies heavily on locality" - 36
+		how to prank people using shared machine - 37
+
+demand page virtual memory - 39
+	example #2 - 40
+		how to partition - 41
+		how many entries in page table? - 42
+		page fault and what to do - 44
+		what goes to physical memory - 46
+
+on having seperate page sizes - 46
+
+most operating systems updates are from virtual memory bugs - 49
+
+example #3 "This is what you will see on the final" - 50
+	how many frames? - 51
+	how wide is each page table entry? - 52
++=+=+=+=+=+=+=+= 11 - 22 friday discussion (after assessment 3) +=+=+=+=+=+=+=+=
