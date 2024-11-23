@@ -573,7 +573,7 @@ cache write - 19
 		marking bits as 'dirty' - 21
 			how to clean cache - 22
 		coherency circuitry - 23
-			its super complicated, "entire books have been written about cache coherency" - 26
+			its super complicated / "entire books have been written about cache coherency" - 26
 			
 "fortran is the best language ever" - 28
 
@@ -700,7 +700,7 @@ virtual memory - 10
 
 	pages = virtual, frame = physical memory - 22
 
-	removing / swapping / overwriting page: swap space - 25
+	swap space: removing / swapping / overwriting page- 25
 
 	frame address clarification - 28
 
@@ -719,7 +719,8 @@ virtual memory - 10
 	"virtual memory relies heavily on locality" - 36
 		how to prank people using shared machine - 37
 
-demand page virtual memory - 39
+demand page virtual memory: what we've been dealing with - 39
+
 	example #2 - 40
 		how to partition - 41
 		how many entries in page table? - 42
@@ -733,4 +734,84 @@ most operating systems updates are from virtual memory bugs - 49
 example #3 "This is what you will see on the final" - 50
 	how many frames? - 51
 	how wide is each page table entry? - 52
+	how many entries in page table - 52
 +=+=+=+=+=+=+=+= 11 - 22 friday discussion (after assessment 3) +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 11 - 22 friday lecture +=+=+=+=+=+=+=+=
+example #4 - 8
+	how many frames? - 9
+	how wide is each page table entry? - 9  
+	how many entries? - 9
+	how to parition given address - 10
+		offset bits - 10
+		page table entry/address bits - 10
+
+example #5 - 12
+	offset bits - 13
+	page table entry/address bits - 13
+	entries in page table - 13
+	how wides is each page table entry? - 13
+
+example #6 - 14
+	offset bits - 15
+	page table entry/address bits - 15
+	how many entries in page table - 15
+	how wide is each page table entry - 16
+
+on realistic address sizes: "whats disturbing about this?" - 17
+	64 bit address space example - 18
+"you have to have the entire page table in order to work" - 18
+
+page table walk: base page table, secondary page table - 18
+	on page table being in memory: why bother with this method? - 19
+	page table walk - 20
+	a page table miss using this method - 21
+"you dont really have an option when you have a large address" - 22
+	you need a page table for all your processess - 22
+you need the ability to service any possible virtual address - 23
+
+inverted page table touched on lightly - 23
+
+BPTR: base page table register - 25
+	on machine restarts: state of machine, process control block - 26
+
+page table cache - 27
+	virtual memory translations & locality - 28
+	Cache of Recent Virtual to Physical Translations - 28
+
+IBM and caches vs look aside buffers - 29
+	TLB: translation look aside buffer - 30
+
+on the two caches: "which do i go to first?" - 31
+	first method: virtually accessed cache: cache 1st TLB 2nd - 31
+		pros - 31
+		on compilers: cons - 32 
+		flushing & cache-aliases issues - 33
+	second method: phyiscally accessed cache: TLB 1st cache 2nd - 34
+		pro and cons - 35
+
+	sun micro systems - 35
+
+segmentation - 37
+	segments - 37
+	where virtual pages go - 38
+		OS code doesn't get virtualized - 39
+	how to partition address - 40
+	segmentation fault - 41
+		back in the day... - 41
+		"you tried to do something you weren't allowed to do" - 42
+	operating system calls - 42
+	BPTR goes into OS code segment - 43
+
+example #7 with TLB cache - 45
+	AMAT: TLB is fully associatitve - 45
+	TLB covers half the cache - 46
+
+multi level TLB - 47
+	how to find miss penalty with multi level- 49
+
+"stuff like this WILL BE ON THE FINAL" - 50
++=+=+=+=+=+=+=+= 11 - 22 friday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
