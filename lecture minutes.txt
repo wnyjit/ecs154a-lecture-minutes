@@ -815,3 +815,60 @@ multi level TLB - 47
 
 ================================================================================================================================
 ================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 25 monday lecture +=+=+=+=+=+=+=+=
+why we use virtual memory - 4
+its important to understand how computers operated in the past - 6
+there are NOT heat problems in memory - 7
+
+key characteristics of memory system - 7
+	location - 8
+		internal/main/RAM vs external/disc - 8
+	capacity - 10
+		word size - 11
+	unit of transfer - 12
+	access method - 14
+		sequential & tape drive analogy - 14
+		Direct & (NON SOLID STATE) disc drive analogy - 15
+		Random & solid state analogy - 15
+			clarifcation on the terrible name - 16
+		associative access & associative cache analogy - 17
+			content addressable memory - 9
+	performance - 19
+		access time - 19
+		cycle time & dynamic memory destructive readout analogy - 20
+		transfer rate - 21
+			equation - 22
+	physical types - 22
+		semiconductor - 22
+		magnetic - 22
+			how it works - 23
+		optical - 24
+			how it orks - 24
+			write once / cannot rewrite - 25
+		paper / mechanical- 25
+			"it will be on the final" - 26
+	physical characteristics - 26
+		volatile/non volatile - 26
+			battery analogy - 27
+		erasable / non erasable - 27
+			EPROMS - 28
+
+write speed and read speed - 29
+
+why we cant go further with dynamic ram - 30
+	it cant continue to be homogeneous - 32
+
+dynamic RAM & destructive readout explained quickly - 36
+
+magnetic is erasable - 38
+
+from the practice final - 38
+	example #1 - 38
+	example #2 - 43
+
+how computers determine the end of memory - 51
++=+=+=+=+=+=+=+= 11 - 25 monday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
