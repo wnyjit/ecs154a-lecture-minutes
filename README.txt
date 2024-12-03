@@ -1,5 +1,5 @@
 >>>>>>>>>>>>>>>>>>>>>DESIGNED TO USE IN TANDEM WITH THE "CANVAS MEDIA GALERY"<<<<<<<<<<<<<<<<<
-ive decided to release my collection of lecture minutes in the hopes that it aids you in your study like it has for me(dont mind grammmer pls)
+ive decided to release my collection of lecture minutes in the hopes that it aids you in your study like it has for me (dont mind grammmer pls)
 
 THERE ARE TYPOS, so if "cntrl-f" doesnt catch it with proper spelling then check with borken speling (for example, tristate vs tri state,, flip flop vs ff vs flipflop,, karno vs karnough vs kmap)
 
