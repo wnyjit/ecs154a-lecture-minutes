@@ -116,7 +116,7 @@ machine m1 - 12
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 10 - 18 friday discussion +=+=+=+=+=+=+=+=
-going over test - 0
+going over assessment 1 - 0
 
 redo flip flops - 41	
 	master slave flip flop - 44
@@ -399,7 +399,7 @@ reporting the performace - 48
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 11 - 8 friday discussion +=+=+=+=+=+=+=+=
-go over the exam(HE SAID EXAM!!! not ASSESMENT!!!) - 4
+going over assessment 2 (HE SAID EXAM!!! not ASSESMENT!!!) - 4
 he talks a bit on grading and curving and final grade a bit - 37
 
 performance & measuring - 40
@@ -874,7 +874,7 @@ how computers determine the end of memory - 51
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 11 - 27 wednesday lecture +=+=+=+=+=+=+=+=
-going over assessment - 3
+going over assessment 3 - 3
 	q1: power density - 4
 	q2: locality, temporal, spatial - 4
 	q3: write through write back - 4
@@ -902,6 +902,50 @@ going over assessment - 3
 
 DONT GIVE UP! - 44	
 +=+=+=+=+=+=+=+= 11 - 27 wednesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 12 - 2 monday lecture +=+=+=+=+=+=+=+=
+performance equation / CPU time - 4
+	how to improve each part of CPU equation
+
+how to exploit it in a way we haven't yet? - 7
+
+parallelism - 7
+
+pipeline / pipelining - 8
+	everything is pipeline now - 8
+	laundry example - 9
+		how many minutes in total? (how often can I change the loads?) - 12	
+balanced pipeline - 14	
+		what is pipelining? - 15
+	making it balanced - 16
+	how many minutes total: doing it by hand vs automation - 19
+	
+we need to modify hardware and instruction for pipeline - 22
+	why x86 doesnt work with pipelining - 22
+
+why balanced pipeline is good: throughput vs response time (this fucking camera >:( ) - 24
+
+FDEMW vs FDE - 26
+
+hazards - 30
+	structural hazard  - 30
+		resource conflict - 30
+		"just throw money at it" - 30
+	data hazards - 31
+		RAW, WAR, WAW - 31
+			the key is: you're changing the state of the machine - 32
+	control hazards - 33
+	
+RAW hazard example - 34
+
+stalls / bubbles in the pipeline - 41
+
+forwarding - 44
+	pipelining & FDEMW & register design - 46	
++=+=+=+=+=+=+=+= 12 - 2 monday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
