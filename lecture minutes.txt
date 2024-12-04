@@ -872,3 +872,36 @@ how computers determine the end of memory - 51
 
 ================================================================================================================================
 ================================================================================================================================
+
++=+=+=+=+=+=+=+= 11 - 27 wednesday lecture +=+=+=+=+=+=+=+=
+going over assessment - 3
+	q1: power density - 4
+	q2: locality, temporal, spatial - 4
+	q3: write through write back - 4
+	q4: write miss, write allocate, no write allocate - 5
+	q5: throughput, response time - 5 
+	q6: throughput, multi core - 6
+	q7: dynamic ram, static ram, current, electrons - 7
+	q8: benchmark program, measure performance, representative program - 8
+	q9: benchmark remain valid - 10
+	q10: direct mapped cache - 10
+	q11: set associative cache - 11
+	q12: fully assoiative - 12
+	q13: CPU time equation - 12
+	q14: amdahl's law - 14
+	q15: AMAT, average memory access time - 17
+	q16: AMAT - 18
+	q17: boolean equation, moore model - 19
+	q18: boolean equation - 21
+	q19: shortest instruction, longest instruction - 23
+	q20: microcode, instruction fetch, flipflops are airlocks - 25
+	q21: microcode, JMP, ff airlock, bus - 31
+	q22: set associative cache - 35
+	q23: direct mapped cache - 39
+	q24: sent to memory on the first miss - 41
+
+DONT GIVE UP! - 44	
++=+=+=+=+=+=+=+= 11 - 27 wednesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
