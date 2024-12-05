@@ -939,13 +939,72 @@ hazards - 30
 			the key is: you're changing the state of the machine - 32
 	control hazards - 33
 	
-RAW hazard example - 34
+data hazard / RAW hazard example - 34
 
 stalls / bubbles in the pipeline - 41
 
 forwarding - 44
 	pipelining & FDEMW & register design - 46	
 +=+=+=+=+=+=+=+= 12 - 2 monday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 12 - 4 wednesday lecture +=+=+=+=+=+=+=+=
+this fucking camera 
+
+pipelining helps the programmer - 6
+how to set cycle time in pipeline - 7
+very short on balanced pipeline - 7
+
+overhead in pipeline- 7
+
+balancing example: making it shorter or longer - 10
+
+overhead - 12
+
+hazards - 16
+	structural - 17
+	data - 17
+
+data hazard example - 18
+	stall - 19
+
+on stalling: stanford MIPS (we use this) vs berkeley RISC - 21
+
+why making pipeline long doesnt work - 22
+	using pipeline diagram to count the number of stalls needed : "write lines up w/ decode" - 23
+	longer pipe (lol) = more stalls - 23
+
+W = write regs - 26
+D = decode & read regs - 26
+
+hardware forwarding - 28
+
+why we need stall - 30
+
+why we cant short the pipe or whatever its called i wasnt listening - 35
+
+recognizing dependency - 40
+	how the compiler can optimize - 44
+
+branch prediction & BTA - 50
+
+what does a NOP do? It doesnt change state of machine - 53
+
+companies spend billions on this - 54
++=+=+=+=+=+=+=+= 12 - 4 wednesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 12 - 6 friday discussion +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 12 - 6 friday discussion +=+=+=+=+=+=+=+=
+
+
++=+=+=+=+=+=+=+= 12 - 6 friday lecture +=+=+=+=+=+=+=+=
++=+=+=+=+=+=+=+= 12 - 6 friday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
