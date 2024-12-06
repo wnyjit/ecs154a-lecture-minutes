@@ -1,3 +1,36 @@
++=+=+=+=+=+=+=+= 09 - 25 wednesday lecture +=+=+=+=+=+=+=+=
+class intro
++=+=+=+=+=+=+=+= 09 - 25 wednesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 09 - 27 friday discussion +=+=+=+=+=+=+=+=
+basic boolean algebra stuff
+SOP
++=+=+=+=+=+=+=+= 09 - 27 friday discussion +=+=+=+=+=+=+=+=
+
++=+=+=+=+=+=+=+= 09 - 27 friday lecture +=+=+=+=+=+=+=+=
+chemistry and physics of circuits and shit
++=+=+=+=+=+=+=+= 09 - 27 friday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 09 - 30 monday lecture +=+=+=+=+=+=+=+=
+logisim setup fiasco (what a mess)
++=+=+=+=+=+=+=+= 09 - 30 monday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
++=+=+=+=+=+=+=+= 10 - 2 wednesday lecture +=+=+=+=+=+=+=+=
+karno map intro
++=+=+=+=+=+=+=+= 10 - 2 wednesday lecture +=+=+=+=+=+=+=+=
+
+================================================================================================================================
+================================================================================================================================
+
 +=+=+=+=+=+=+=+= 10 - 4 friday Discussion+=+=+=+=+=+=+=+=
 binary coded decimal incrementer - 0
 	dont cares - 12
@@ -9,6 +42,30 @@ Decoder - 30
 multiplexer - 34
 +=+=+=+=+=+=+=+= 10 - 4 friday Discussion+=+=+=+=+=+=+=+=
 
++=+=+=+=+=+=+=+= 10 - 4 friday lecture+=+=+=+=+=+=+=+=
+he said test - 5
+
+adders - 5
+
+half adder full adder carry in carry out - 7
+	gate diagram of adder - 10
+
+3 bit adder - 16
+
+ripple carry adder - 17
+	why is it called ripple carry - 23
+
+worst case path & gate delay - 26
+	why we have to wait - 31
+
+cout0, cout1 equation - 34
+
+carry lookahead - 36
+
+propogate and generate P & G - 42
+
++=+=+=+=+=+=+=+= 10 - 4 friday lecture+=+=+=+=+=+=+=+=
+
 ================================================================================================================================
 ================================================================================================================================
 
@@ -19,7 +76,7 @@ parity - 5
 
 quickly go over adder - 10
 	clockrate - 12
-	carry lookahaed - 13
+	carry lookahead - 13
 	"write C out 4" - 18
 	inside the carry look ahead - 22
 	C out equation clarification - 27
@@ -116,7 +173,24 @@ machine m1 - 12
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 10 - 18 friday discussion +=+=+=+=+=+=+=+=
-going over assessment 1 - 0
+going over assessment 1 (this fucking projector) - 3
+	q1: minterm maxterm on truth table - 5
+	q2: sum of products / SOP - 6
+	q3: minimize using kmap - 7
+	q4: minimize using kmap - 9
+	q5: create MUX for given function - 11
+	q6: parity bit - 14
+	q7: A * 1 - 15
+	q8: A + 1 - 15
+	q9: draw 4-1 MUX - 16
+	q10: f = g - 19
+	q11: functionally complete set of gates using NOR - 21
+	q12: connecting adder - 24
+	q13: worst case path - 27
+	q14: full adder label - 30
+	q15: connecting ALU carry lookahead - 31
+	q16: write equation in terms of P & G - 33
+	q17: worst case path - 38
 
 redo flip flops - 41	
 	master slave flip flop - 44
@@ -400,6 +474,22 @@ reporting the performace - 48
 
 +=+=+=+=+=+=+=+= 11 - 8 friday discussion +=+=+=+=+=+=+=+=
 going over assessment 2 (HE SAID EXAM!!! not ASSESMENT!!!) - 4
+	q1: hold time flip flop - 5
+	q2: setup time flip flop - 5
+	q3: propagation time for latch - 6
+	q4: mealy vs moore, disadvantage of mealy - 7
+	q5: SR flip flop - 10
+	q6: how to read JK kmap - 11
+	q7: worst case path - 11
+	q8: OR gate - 15
+	q9: wrap DE flip flop with SR flip flop -  16
+	q10: wrap JK with toggle flip flop - 18
+	q11: draw kmap for thing (i cant read the question and dont care to look) - 20
+	q12: given kmap, create SR, JK, T flip flop - 23
+	q13: mealy model vending machine - 26
+	q14: moore model for 2-bit shifter - 30
+	q15: state transition minimize - 33
+
 he talks a bit on grading and curving and final grade a bit - 37
 
 performance & measuring - 40
