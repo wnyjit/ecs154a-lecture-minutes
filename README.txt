@@ -8,14 +8,12 @@ im also not the most thorough, so THERE ARE TOPICS THAT CAN BE MISSED
 the minute associated with a topic is not dead accurate. the topic covered is usually 1 or so minute before it's actually brought up in lecture
 
 
+>>>>>>>>>>>>>> if you want to see him cover / grade assessment, search "going over assessment x" <<<<<<<<<<<<<<<<<<
+                                                where x is the assessment number
+
 
 >>>>>>>>>>>>>>>ALL MAJOR UPDATES COMPLETE<<<<<<<<<<<<<<
           only small changes from here on out
-
-
-
->>>>>>>>>>>>>> if you want to see him cover / grade assessment, search "going over assessment x" <<<<<<<<<<<<<<<<<<
-                                                where x is the assessment number
 
 
 
