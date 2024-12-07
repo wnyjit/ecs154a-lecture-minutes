@@ -63,7 +63,6 @@ cout0, cout1 equation - 34
 carry lookahead - 36
 
 propogate and generate P & G - 42
-
 +=+=+=+=+=+=+=+= 10 - 4 friday lecture+=+=+=+=+=+=+=+=
 
 ================================================================================================================================
@@ -548,10 +547,8 @@ going over the handout of "genericcpu.txt2.pdf"- 29
 chapter 7 of the harris book and single vs multicycle- 42
 +=+=+=+=+=+=+=+= 11 - 8 friday lecture +=+=+=+=+=+=+=+=
 
-
 ================================================================================================================================
 ================================================================================================================================
-
 
 +=+=+=+=+=+=+=+= 11 - 11 monday lecture+=+=+=+=+=+=+=+=
 nothing , verterans day
@@ -1073,7 +1070,12 @@ hardware forwarding - 28
 
 why we need stall - 30
 
-why we cant short the pipe or whatever its called i wasnt listening - 35
+hazard in pipe example - 35
+
+what each stage in FDEMW is - 38	
+	fetch , decode & read reg, excecute, mem load / store, write to reg
+
+MIPS addressing mode: n(r), 8(R10) where n is num & r is reg- 39
 
 recognizing dependency - 40
 	how the compiler can optimize - 44
@@ -1089,12 +1091,98 @@ companies spend billions on this - 54
 ================================================================================================================================
 
 +=+=+=+=+=+=+=+= 12 - 6 friday discussion +=+=+=+=+=+=+=+=
+control hazards - 7
+	branching - 8
+		killing instruction - 8
 
+CPi cycle per instruction - 9
+
+"control hazards are hard" - 11
+branch prediction - 12
+"30% of the time it takes an extra 3 cycles" - 12
+
+condition codes x86 vs RISC - 14
+
+valid write bit - 17
+
+basic block (bigger = better) - 19
+
+things wrong with long pipes - 20
+	why hazards slow down long pipes - 20
+	basic block size and pipe - 21
+	power concerns with long pipe - 22
+		"things still happen during stalls" - 23
+
+iLP instruction level parallelism - 24
+	n issue machine - 24
+	Apple and big iLP's - 25
+	
+Big little concept - 26
+	performance & efficiency - 29
+
+"every cycle we need to perform branch prediction" - 30
+	why we cant use AI - 31
+
+linux and threads - 35
+
+super computers - 38
+
+security issues - 41
+
+interrupt : unscheduled subroutine call - 45
+	vectored & fixed - 47
+what happened, where did it happen, where to go? - 49
+
+Farrens_Huh.mp3 - 51
+
+what is an interrupt? - 52
 +=+=+=+=+=+=+=+= 12 - 6 friday discussion +=+=+=+=+=+=+=+=
 
 
 +=+=+=+=+=+=+=+= 12 - 6 friday lecture +=+=+=+=+=+=+=+=
+interrupts and pipelines dont mix - 5
+external bus - 7
+serial, USB - 7
+
+twisted pair - 7
+	how do you do timing on something on this? - 9
+rs.232  modem connection - 10
+	start, data, stop bits - 10
+	two modems communicating together - 11
+
+fiber optic cable and photons - 14
+	problem with using photons inside CPU - 15
+		heat vs energy consumed - 16
+	why we dont have photonic computers? (no way for memory) - 17
+
+why we need to have registers / storage in first place - 19
+	"its not impossible but it's pretty much impossible" - 20
+
+deeper look into rs.232 connections - 20
+	hot swapping - 22
+
+going over final - 23
+"last year's questions arent as advanced" - 23
+	recognize hazards WAW WAR RAW - 23
+	how many NOPS required here? (write aligned w decode)- 25
+				MIPS addressing mode (12-4 wed @ 39) - 25
+		why only RAW has NOPS - 27
+		what if we add forwarding - 31
+	make memory (talks about it 11-25 @38) - 34
+	worst case path / minimum cycle time - 46
+	2 bus micro code doesnt go over it - 48
+	page table (he referes to "example #1-6" on 11-22 discuss & lect) - 49
+	segmented paged virtual memory - 49
+
+farrens will try to trick you so be careful - 52
+
+the final will not be in normal rooms - 52
 +=+=+=+=+=+=+=+= 12 - 6 friday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
 ================================================================================================================================
+
+the end ❤️ 😁 🤣 😂 😘 💕 😍 👌 👍 
+ヽ(✿ﾟ▽ﾟ)ノ   (￣_,￣ )   φ(*￣U￣)    ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)   ^0^   ^_____^   Y.Y   =P   ヾ(≧▽≦*)   oq(≧▽≦q)     \^o^/    (〃￣︶￣)人(￣︶￣〃)
+
+goodluck!
