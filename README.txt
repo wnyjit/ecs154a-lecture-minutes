@@ -1,23 +1,21 @@
 >>>>>>>>>>>>>>>>>>>>>DESIGNED TO USE IN TANDEM WITH THE "CANVAS MEDIA GALERY"<<<<<<<<<<<<<<<<<
-ive decided to release my collection of lecture minutes in the hopes that it aids you in your study like it has for me (dont mind grammmer pls)
+ive decided to release my collection of lecture minutes in the hopes that it aids you in your study like it has for me 
 
-THERE ARE TYPOS, so if "cntrl-f" doesnt catch it with proper spelling then check with borken speling (for example, tristate vs tri state,, flip flop vs ff vs flipflop,, karno vs karnough vs kmap)
+THERE ARE TYPOS, so if "ctrl-f" doesnt catch it with proper spelling then check with borken speling (for example, tristate vs tri state,, flip flop vs ff vs flipflop,, karno vs karnough vs kmap)
 
-im also not the most thorough, so there are topics that can be missed
+im also not the most thorough, so THERE ARE TOPICS THAT CAN BE MISSED 
 
 the minute associated with a topic is not dead accurate. the topic covered is usually 1 or so minute before it's actually brought up in lecture
 
 
->>>>>>>>>>>>>> if you want to see him cover / grade assessment, search "going over assessment x" where x is the assessment number <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>ALL MAJOR UPDATES COMPLETE<<<<<<<<<<<<<<
+          only small changes from here on out
 
 
 
-
-
-
-
->>>>>>>>>>>>>>>i plan on updating this github page as time goes on<<<<<<<<<<<<<<
-
+>>>>>>>>>>>>>> if you want to see him cover / grade assessment, search "going over assessment x" <<<<<<<<<<<<<<<<<<
+                                                where x is the assessment number
 
 
 
