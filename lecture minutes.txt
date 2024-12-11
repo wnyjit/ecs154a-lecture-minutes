@@ -1005,19 +1005,24 @@ pipeline / pipelining - 8
 	everything is pipeline now - 8
 	laundry example - 9
 		how many minutes in total? (how often can I change the loads?) - 12	
+	worst case path in pipeline / overall time per cycle - 13
 balanced pipeline - 14	
 		what is pipelining? - 15
 	making it balanced - 16
 	how many minutes total: doing it by hand vs automation - 19
 	
+cycle time vs worst case path in pipe "cycle time must be same for all" - 19
+
 we need to modify hardware and instruction for pipeline - 22
 	why x86 doesnt work with pipelining - 22
 
 why balanced pipeline is good: throughput vs response time (this fucking camera >:( ) - 24
 
-FDEMW vs FDE - 26
+FDEMW vs FDE: basic RISC machine - 26
 
-hazards - 30
+why a single cycle machine has two memories - 29
+
+hazards - 29
 	structural hazard  - 30
 		resource conflict - 30
 		"just throw money at it" - 30
@@ -1028,10 +1033,17 @@ hazards - 30
 	
 data hazard / RAW hazard example - 34
 
+what FDEMW means & does / what each stage in FDEMW is - 38
+	fetch , decode & read reg, excecute, mem load / store, write to reg
+
 stalls / bubbles in the pipeline - 41
 
 forwarding - 44
+		true hazard: raw - 45
 	pipelining & FDEMW & register design - 46	
+	
+why lw, load & forwarding - 41
+
 +=+=+=+=+=+=+=+= 12 - 2 monday lecture +=+=+=+=+=+=+=+=
 
 ================================================================================================================================
@@ -1044,7 +1056,7 @@ pipelining helps the programmer - 6
 how to set cycle time in pipeline - 7
 very short on balanced pipeline - 7
 
-overhead in pipeline- 7
+overhead in pipeline / FF prop & setup time - 7
 
 balancing example: making it shorter or longer - 10
 
@@ -1060,29 +1072,33 @@ data hazard example - 18
 on stalling: stanford MIPS (we use this) vs berkeley RISC - 21
 
 why making pipeline long doesnt work - 22
-	using pipeline diagram to count the number of stalls needed : "write lines up w/ decode" - 23
+	stall: write lines up w/ decode: using pipeline diagram to count the number of stalls needed - 23
 	longer pipe (lol) = more stalls - 23
 
 W = write regs - 26
 D = decode & read regs - 26
 
+why we want to avoid stall - 27
+
 hardware forwarding - 28
 
 why we need stall - 30
 
-hazard in pipe example - 35
+stalls dont change worst case path / cycle time - 34 
 
-what each stage in FDEMW is - 38	
-	fetch , decode & read reg, excecute, mem load / store, write to reg
+hazard in pipe example - 35
+	waw: complete out of order: ooo - 35
+		"my big long pipe" - 36
+	war - 38
 
 MIPS addressing mode: n(r), 8(R10) where n is num & r is reg- 39
 
 recognizing dependency - 40
 	how the compiler can optimize - 44
 
-branch prediction & BTA - 50
+branch prediction & BTA branch target address - 50
 
-what does a NOP do? It doesnt change state of machine - 53
+how to kill instruction: what does a NOP do? It doesnt change state of machine - 53
 
 companies spend billions on this - 54
 +=+=+=+=+=+=+=+= 12 - 4 wednesday lecture +=+=+=+=+=+=+=+=
@@ -1101,9 +1117,11 @@ CPi cycle per instruction - 9
 branch prediction - 12
 "30% of the time it takes an extra 3 cycles" - 12
 
+how to kill instruction - 14
+
 condition codes x86 vs RISC - 14
 
-valid write bit - 17
+killing instruction: valid write bit  - 17
 
 basic block (bigger = better) - 19
 
